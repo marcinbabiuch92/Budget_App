@@ -16,10 +16,32 @@ auto = budget.Category("Auto")
 auto.deposit(1000, "initial deposit")
 auto.withdraw(15)
 
-print(food)
-print(clothing)
+# food = budget.Category("Food")
+# entertainment = budget.Category("Entertainment")
+# food.deposit(900, "deposit")
+# food.withdraw(45.67, "milk, cereal, eggs, bacon, bread")
+# transfer_amount = 20
+# food_balance_before = food.get_balance()
+# entertainment_balance_before = entertainment.get_balance()
+# good_transfer = food.transfer(transfer_amount, entertainment)
+# food_balance_after = food.get_balance()
+# entertainment_balance_after = entertainment.get_balance()
 
+# food = budget.Category("Food")
+# entertainment = budget.Category("Entertainment")
+# business = budget.Category("Business")
+#
+# food.deposit(900, "deposit")
+# entertainment.deposit(900, "deposit")
+# business.deposit(900, "deposit")
+# food.withdraw(105.55)
+# entertainment.withdraw(33.40)
+# business.withdraw(10.99)
+
+# print(food)
+# print(clothing)
 print(create_spend_chart([food, clothing, auto]))
+# print(create_spend_chart([food, entertainment, business]))
 
 # Run unit tests automatically
 main(module='test_module', exit=False)
